@@ -26,8 +26,8 @@ public class Calculadora {
         this.valorA = valorA;
     }
 
-    public void setValorB(double valorA) {
-        this.valorA = valorA;
+    public void setValorB(double valorB) {
+        this.valorB = valorB;
     }
 
     public double getAdicao() {
