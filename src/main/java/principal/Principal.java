@@ -15,20 +15,26 @@ public class Principal {
                 calculadora.setValorA(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de A")));
                 calculadora.setValorB(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de B")));
                 break;
+                    
                 case 2:
                 JOptionPane.showMessageDialog(null, "Soma: "+calculadora.getAdicao());
                 break;
+                    
                 case 3:
                 JOptionPane.showMessageDialog(null, "Subtração: "+calculadora.getSubtracao());
                 break;
+                    
                 case 4:
                 JOptionPane.showMessageDialog(null, "Produto: "+calculadora.getProduto());
                 break;
+                    
                 case 5:
                 JOptionPane.showMessageDialog(null, "Divisão: "+calculadora.getDivisao());
                 break;
-
-
+                    
+                default:
+                JOptionPane.showMessageDialog("Opção invalida");
+               
             }
         }
 
