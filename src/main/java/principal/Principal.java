@@ -20,6 +20,7 @@ public class Principal {
                 break;
                 case 3:
                 JOptionPane.showMessageDialog(null, "Soma: "+calculadora.getSubtracao());
+                break;
                 case 4:
                 JOptionPane.showMessageDialog(null, "Soma: "+calculadora.getProduto());
                 break;
