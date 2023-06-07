@@ -34,6 +34,7 @@ public class Principal {
                     
                 default:
                 JOptionPane.showMessageDialog("Opção invalida");
+                break;
                
             }
         }
